@@ -1,5 +1,4 @@
 from fpdf import FPDF
-from faker import Faker
 
 class SignInSheet:
     LIST_COLUMN_Y_START = 40
