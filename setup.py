@@ -12,6 +12,7 @@ setup(
   install_requires=[
     'click',
   ],
+  scripts=['bin/sign-in-sheet-generator'],
   zip_safe=False
 )
 

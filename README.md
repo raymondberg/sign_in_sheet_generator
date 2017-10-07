@@ -4,11 +4,12 @@ I hate generating sign-in-sheets. Do you?
 
 This might help.
 
-
 ## Install
 
 ```
-pip install -r requirements.txt
+
+pip install sign_in_sheet_generator
+
 ```
 
 ## Usage
@@ -16,13 +17,20 @@ pip install -r requirements.txt
 It generates a pdf. Pretty straight forward.
 
 ```
-python generate.py -t "Cool event" -s "Doors at 6:00pm" -i /path/to/source/file
+sign-in-sheet-generator -t "Cool event" -s "Doors at 6:00pm" -i /path/to/source/file
 ```
 
 The default behavior is to use the first column from a given CSV. You can specify a column title if you need.
 
 ```
-python generate.py -t "Cool event" -s "Doors at 6:00pm" -i /path/to/source/file -c "Full Name"
+sign-in-sheet-generator -t "Cool event" -s "Doors at 6:00pm" -i /path/to/source/file -c "Full Name"
 ```
 
 There are other options; spelunk a bit!
+
+## Install Dev Requirements
+
+```
+pip install -r requirements.txt
+```
+
