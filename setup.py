@@ -2,7 +2,7 @@ from setuptools import setup
 
 setup(
   name='sign_in_sheet_generator',
-  version='0.1',
+  version='0.2.0',
   description='Sign-In Sheet Generator',
   url='http://github.com/raymondberg/sign_in_sheet_generator',
   author='Raymond Berg',
