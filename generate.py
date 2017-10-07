@@ -1,6 +1,6 @@
 import csv
 import click
-from sign_in_sheet import SignInSheet
+from sign_in_sheet_generator import SignInSheet
 
 def names_from_file(file_path, column_name=None):
     reader = csv.reader

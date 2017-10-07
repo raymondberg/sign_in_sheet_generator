@@ -1,5 +1,6 @@
-from sign_in_sheet import SignInSheet
 from faker import Faker
+
+from sign_in_sheet_generator import SignInSheet
 
 if __name__ == '__main__':
     fake = Faker()
